@@ -8,7 +8,7 @@ public class WelcomeRestController {
 	
 	@GetMapping("/msg")
 	public String getWelcomeMsg() {
-		return "welcome to springboot lectures";
+		return "welcome to springboot lectures demo ";
 	}
 
 }
